@@ -27,8 +27,8 @@ for i in range(len(msg)):
             n = 0
             z = (z + 1) % 3
 
-cv2.imwrite("Encryptedmsg.jpg", img)
-os.system("start Encryptedmsg.jpg")
+cv2.imwrite("EncryptedImage.jpg", img)
+os.system("start EncryptedImage.jpg")
 
 message = ""
 n = 0
